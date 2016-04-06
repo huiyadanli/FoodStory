@@ -1,0 +1,17 @@
+E:\临时\FoodStory\FoodStory\bin\FoodStory.dll
+E:\临时\FoodStory\FoodStory\bin\FoodStory.pdb
+E:\临时\FoodStory\FoodStory\obj\Debug\ResolveAssemblyReference.cache
+E:\临时\FoodStory\FoodStory\obj\Debug\FoodStory.dll
+E:\临时\FoodStory\FoodStory\obj\Debug\FoodStory.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\bin\FoodStory.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\bin\FoodStory.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\obj\Debug\ResolveAssemblyReference.cache
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\obj\Debug\FoodStory.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\obj\Debug\FoodStory.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\bin\BLL.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\bin\Model.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\bin\DAL.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\bin\Model.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\bin\BLL.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\bin\DAL.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\FoodStory\bin\Newtonsoft.Json.dll

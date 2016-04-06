@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.Master.cs" Inherits="FoodStory.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>美食物语</title>
+    <link rel="Stylesheet" href="Static/CSS/bootstrap.min.css" />
+
+    <script type="text/javascript" src="Static/JS/jquery.min.js"></script>
+
+    <script type="text/javascript" src="Static/JS/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="padding-top: 70px; padding-bottom: 30px;">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- 美食物语 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+                        class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Index.aspx">美食物语</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="Discovery.aspx">发现</a></li>
+                    <li><a href="Index.aspx">最新</a></li>
+                </ul>
+                <div id="variednav" runat="server">
+                    <ul class="nav navbar-nav navbar-right">
+                        <button id="btnlogin" type="button" class="btn btn-default navbar-btn" style="width: 70px">
+                            登录</button>
+                        <button id="btnregister" type="button" class="btn btn-default navbar-btn" style="width: 70px">
+                            注册</button>
+                    </ul>
+
+                    <script>
+                        $("#btnlogin").click(function() {
+                            window.location.href = 'Login.aspx';
+                        });
+                        $("#btnregister").click(function() {
+                            window.location.href = 'Register.aspx';
+                        });
+                    </script>
+
+                </div>
+                <!-- 搜索 -->
+                <form class="navbar-form navbar-left" role="search" style="width: 60%">
+                <div class="form-group" style="width: 80%">
+                    <input id="input-search" type="text" class="form-control" placeholder="想吃什么？" style="width: 100%">
+                </div>
+                <button id="btn-search" type="button" class="btn btn-primary">
+                    搜索</button>
+
+                <script>
+                    $(document).ready(function() {
+                        $("#input-search").keydown(function(e) {
+                            var curKey = e.which;
+                            if (curKey == 13) {
+                                $("#btn-search").click();
+                                return false;
+                            }
+                        });
+                    });
+                    $("#btn-search").click(function() {
+                        var q = $("#input-search").val();
+                        q = q.replace("<", "").replace(">", ""); //过滤<>
+                        window.location.href = "Search.aspx?q=" + q;
+                    });
+                </script>
+
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </div>
+
+    <script>
+        ;(function($)  
+        {  
+            $.extend(  
+            {  
+                /** 
+                 * url get parameters 
+                 * @public 
+                 * @return array() 
+                 */  
+                urlGet:function()  
+                {  
+                    var aQuery = window.location.href.split("?");//取得Get参数  
+                    var aGET = new Array();  
+                    if(aQuery.length > 1)  
+                    {  
+                        var aBuf = aQuery[1].split("&");  
+                        for(var i=0, iLoop = aBuf.length; i<iLoop; i++)  
+                        {  
+                            var aTmp = aBuf[i].split("=");//分离key与Value  
+                            aGET[aTmp[0]] = aTmp[1];  
+                        }  
+                    }  
+                    return aGET;  
+                },  
+            });  
+        })(jQuery);
+        var GET = $.urlGet(); //获取URL的Get参数 
+        var keywords = GET['q']; //取得id的值
+        if(keywords!=null)
+        {
+            $("#input-search").val(decodeURIComponent(keywords));
+        }
+    </script>
+
+    <!-- 下面是内容页 -->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

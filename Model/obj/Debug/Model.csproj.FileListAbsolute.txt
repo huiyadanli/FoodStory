@@ -1,0 +1,10 @@
+E:\临时\FoodStory\Model\bin\Debug\Model.dll
+E:\临时\FoodStory\Model\bin\Debug\Model.pdb
+E:\临时\FoodStory\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\临时\FoodStory\Model\obj\Debug\Model.dll
+E:\临时\FoodStory\Model\obj\Debug\Model.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\Model\bin\Debug\Model.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\Model\bin\Debug\Model.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\编程\网页开发\Project\asp.net\FoodStory\Model\obj\Debug\Model.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\Model\obj\Debug\Model.pdb

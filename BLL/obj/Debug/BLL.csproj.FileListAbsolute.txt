@@ -1,0 +1,14 @@
+E:\临时\FoodStory\BLL\bin\Debug\BLL.dll
+E:\临时\FoodStory\BLL\bin\Debug\BLL.pdb
+E:\临时\FoodStory\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\临时\FoodStory\BLL\obj\Debug\BLL.dll
+E:\临时\FoodStory\BLL\obj\Debug\BLL.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\BLL\bin\Debug\BLL.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\BLL\bin\Debug\BLL.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\编程\网页开发\Project\asp.net\FoodStory\BLL\obj\Debug\BLL.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\BLL\obj\Debug\BLL.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\BLL\bin\Debug\DAL.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\BLL\bin\Debug\Model.dll
+D:\编程\网页开发\Project\asp.net\FoodStory\BLL\bin\Debug\Model.pdb
+D:\编程\网页开发\Project\asp.net\FoodStory\BLL\bin\Debug\DAL.pdb
